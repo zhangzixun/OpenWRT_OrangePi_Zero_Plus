@@ -12,3 +12,10 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+
+# Add Lienol's Packages
+git clone --depth=1 https://github.com/Lienol/openwrt-package
+
+# Add OpenClash
+git clone --depth=1 -b master https://github.com/vernesong/OpenClash
